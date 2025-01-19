@@ -1,0 +1,160 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+  }
+  
+  /* Header & Navigation */
+  header {
+    background-color: #333;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin: 0 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 10px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #f4f4f4;
+    color: #333;
+    border-radius: 5px;
+  }
+  
+  /* Home Section */
+  #home {
+    background-color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  #home h1 {
+    color: #333;
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  #home p {
+    color: #555;
+    font-size: 18px;
+  }
+  
+  #home .projects {
+    margin-top: 30px;
+  }
+  
+  #home .projects ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  #home .projects ul li {
+    margin: 0 15px;
+  }
+  
+  #home .projects ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  #home .projects ul li a:hover {
+    color: #007BFF;
+  }
+  
+  /* About Section */
+  #about {
+    background-color: #fff;
+    padding: 40px 20px;
+  }
+  
+  #about h2 {
+    color: #333;
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  #about .education, #about .skills, #about .achievements {
+    margin-bottom: 20px;
+  }
+  
+  #about h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  #about ul {
+    list-style: none;
+  }
+  
+  #about ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  /* Projects Section */
+  #projects {
+    background-color: #fff;
+    padding: 40px 20px;
+  }
+  
+  #projects h2 {
+    color: #333;
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  #projects div {
+    margin-bottom: 20px;
+  }
+  
+  #projects div h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  #projects div a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  #projects div a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  
